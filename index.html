@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link href="https://fonts.googleapis.com/css?family=Outfit:regular,300,600&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css">
+
+	<title>Frontend Mentor | NFT preview card component</title>
+
+	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	<style>
+		.attribution {
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.attribution a {
+			color: hsl(228, 45%, 44%);
+		}
+	</style>
+</head>
+
+<body>
+	<main class="card">
+		<div class="card__container">
+			<div class="card__image-wrapper">
+				<a class="card__image-link" href="#" target="_blank" title="Preview the image"
+					aria-labelledby="image-link-label img">
+					<span id="image-link-label" class="visually-hidden">Preview the image</span>
+					<img src="images/icon-view.svg" alt="Icon" class="card__view-icon" />
+					<img src="images/image-equilibrium.jpg" id="img" alt="Equilibrium cube art" class="card__image" />
+				</a>
+			</div>
+
+			<div class="card__body">
+				<h1 class="card__title">
+					Equilibrium #3429
+				</h1>
+				<p class="card__description">Our Equilibrium collection promotes balance and calm.</p>
+
+				<div class="card__content">
+
+					<div class="card__info">
+						<div class="card__price">
+							<img src="images/icon-ethereum.svg" class="card__icon" alt="icon">
+							<p class="card__value">0.041 ETH</p>
+						</div>
+						<div class="card__date">
+							<img src="images/icon-clock.svg" class="card__icon" alt="icon">
+							<p class="card__duration">3 days left</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="card__author">
+					<img src="images/image-avatar.png" class="card__avatar" alt="Image">
+					<p class="author-text"> Creation of <a href="#" class="card__author-name">Jules Wyvern</a></p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+</body>
+
+</html>
